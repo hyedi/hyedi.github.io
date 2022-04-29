@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 프로필</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table{
+            width: 70%; /*표의 너비*/
+            border: 1px solid #222; /*1픽셀짜리 표 테두리*/
+            border-collapse: collapse; /*중복되는 표와 셀이 테두리를 한*/
+        }
+        thead{
+            background: #eee; /*제목 행의 배경색*/
+        }
+        th, td{
+            border: 1px solid #ccc; /*1픽셀짜리 표 테두리*/
+            padding: 5px; /*셀 테두리와 셀 내용사이의 여백(패딩)*/
+            font-size: 0.8em; /*셀의 글자 크기*/
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- 자기 소개 -->
+          <aside>
+            <div id="namecard">
+                <img src="images/woman.jpg" alt="" width="200" height="228">
+                <h1>Kwak HyeJi</h1>
+                <p>Age quad agis</p>
+            </div>
+            <div id="Detail">
+                <p>Hayang, Korea</p>
+                <p>kgl04137@naver.com</p>
+            </div>
+            <div id="SNS">
+                <h2>SNS</h2>
+                <ul>
+                    <li><a href="https://www.instagram.com/hye._.je_e/" target="_blank">instagram</a></li>
+                    <li><a href="https://www.facebook.com/hyeji0612/" target="_blank">facebook</a></li>
+                </ul>
+            </div>
+          </aside>
+        <div id="main">
+            <!-- ctrl+/ = 주석 -->
+            <section>
+                <h2 class="subtitle">Who am I?</h2>
+                <strong>책임, 긍정</strong>은 <strong>곽혜지</strong>를 잘 표현한 단어라고 생각합니다.<br>
+                지금, 취업을 위해 html과 java를 배우고 있습니다.<br>
+                한번 시작한 일!<br>
+                책임감 있게 끝까지, 그리고 성실히 하겠습니다.
+            </section>
+            <!-- 경력 -->
+            <section>
+                <h2 class="subtitle">Experience</h2>
+                <dl>
+                    <dt>알바</dt>
+                    <dd>드림식자재마트 계산원</dd>
+                    <dd>2015.11~2018.11</dd>
+                </dl>
+            </section>
+            <!-- 숙련도 -->
+            <section>
+                <h2 class="subtitle">Skills</h2>
+                <ul>
+                    <li>면허</li>
+                        <ol type="i">
+                            <li>2종 보통</li>
+                        </ol>
+                    <li>무도</li>
+                        <ol type="i">
+                            <li>태권도 4단</li>
+                            <li>검도 1단</li>
+                        </ol>
+                    <li>컴퓨터</li>
+                        <ol type="i">
+                            <li>워드프로세서 1급</li>
+                            <li>컴퓨터활용 능력 1급 <em>(취득 예정)</em></li>
+                        </ol>
+                </ul>
+            </section>
+             <!-- 학력 -->
+             <section>
+               <h2 class="subtitle">Education</h2>
+               <table>
+                   <caption>
+                       학력 사항
+                   </caption>
+                   <thead>
+                       <th>출신 학교</th>
+                       <th>전공</th>
+                       <th>기간</th>
+                       <th>구분</th>
+                   </thead>
+                   <tr>
+                       <td>대구가톨릭대학교</td>
+                       <td>경제금융부동산</td>
+                       <td>2016.3~2022.8</td>
+                       <td>졸업예정</td>
+                   </tr>
+                   <tr>
+                       <td>하양여자고등학교</td>
+                       <td>인문</td>
+                       <td>2013.3~2016.2</td>
+                       <td>졸업</td>
+                   </tr>
+
+               </table>
+             </section>
+        </div>
+    </div>
+</body>
+</html>
